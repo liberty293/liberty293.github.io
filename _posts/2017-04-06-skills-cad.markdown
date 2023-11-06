@@ -32,7 +32,7 @@ Below showcases a few projects I have designed throughout my engineering tenure
 The YZ250F Yamaha dirtbike engine with accompanied tailpipe and kickstand (left). The entire animated bike is shown on the right. Our team recreated the bike was recreated from its original technical specifications.
 
 ## Human Powered Washing Machine
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+<div style="position: relative; padding-bottom: 56.25%; overflow: hidden; max-width: 100%;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1Qw2BKwE6Cvz-prcSErcbpnO3-9WOHrSe/preview" frameborder="0" allowfullscreen></iframe>
 </div>
 Group Design of a Human Powered Washing Machine

@@ -32,6 +32,7 @@ While the honeycomb design worked best for decreasing the peak force on impact, 
 To provide both structure and complience, a variety of silicone's were explored. While durometer is labeled for each material, it is a qualitative instead of a quantitative measure. Therefore, each materials was tested on a Force Sensor to analyze the compliance. Ecoflex 30 was chosen due to its high strain per a given force). Using the same evaluation criteria, FoamItIV was also chosen. All the materials were from SmoothOn, a silicone and foam manufacturing company.
 
 ## Results
-
-<iframe src="https://drive.google.com/file/d/1TLNToWvCaxw_bIhwnJBLBgxj5KIDgtc7/preview" width="640" height="360"></iframe>
+<div style="text-align: center">
+<iframe src="https://drive.google.com/file/d/1TLNToWvCaxw_bIhwnJBLBgxj5KIDgtc7/preview" width="640" height="360" ></iframe>
+</div>
 

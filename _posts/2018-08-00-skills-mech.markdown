@@ -23,7 +23,9 @@ Using only four servos, I worked on a team with three other engineers to recreat
 
 ### Task Oriented
 #### Gathering 
-![mahogony]({{site.baseurl}}/assets/img/mechatronics/210.png)
+<p align="center">
+  <img src="{{site.baseurl}}/assets/img/mechatronics/210.jpeg" width="60%"/>
+</p>
 Mahogany was tasked with autonomously "herding sheep" (transporting balls) from a designated loading area to a scoring area with the ability to navigate holes in the playing field without losing any sheep. The robot needed to secure the balls throughout its journey so we designed a "playpen" structure that did not allow for the balls to leave the manipulation space of the robot. The robot also had a two-tier chassis that allowed us to carefully store the batteries on the bottom and the electronic components (microcontroller, motor driver, LEDs, potentiometer, voltage regulators, switch). The motors are attached via mounts secured underneath the bottom plate.
 
 <p align="center">
