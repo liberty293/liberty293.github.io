@@ -1,0 +1,16 @@
+---
+layout: post
+title: Designing Immersive, Narrative-Based Interfaces to Guide Outdoor Learning
+subtitle: Alan Y. Cheng, Jacob Ritchie, Niki Agrawal, Elizabeth Childs, Cyan DeVeaux, Yubin Jee, Trevor Leon, Bethanie Maples, Andrea Cuadra, James A. Landay 
+date: 2023-04-01
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: chi.jpeg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Augmented Reality, Learning Technology, Education] # add tag
+---
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/5DUo-TWQrcw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Outdoor learning experiences, such as field trips, can improve children’s science achievement and engagement, but these experiences are often difficult to deliver without extensive support. Narrative in educational experiences can provide needed structure, while also increasing engagement. We created a narrative-based, mobile application to investigate how to guide young learners in interacting with their local, outdoor environment. In a second variant, we added augmented reality and image classification to explore the value of these features. A study (n = 44) found that participants using our system demonstrated learning gains and found the experience engaging. Our findings identified several major themes, including participant excitement for hands-on interactions with nature, curiosity about the characters, and enthusiasm toward typing their thoughts and observations. We offer a set of design implications for supporting narrative-based, outdoor learning with immersive technology.
