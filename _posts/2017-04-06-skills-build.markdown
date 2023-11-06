@@ -7,7 +7,7 @@ img:  manufacture.png # Add image post (optional)
 ---
 ## Silicone Molding/Soft Robotics
 ![foot]({{site.baseurl}}/assets/img/manufacture/foot.png)
-3D printing silicone molds for imact absorbion. Various designs were created and tested to maximize absorbtion energy.
+3D printing silicone molds for impact absorbion. Various designs were created and tested to maximize absorbtion energy.
 
 ![softrobo]({{site.baseurl}}/assets/img/manufacture/softrobo.png)
 Creating soft robotic fingers. Various designs were fabricated to analyze the radius of curvature for a given input pressure

@@ -1,8 +1,6 @@
 title: Elizabeth's Website
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ Elizabeth Childs is a PhD Candidate at Stanford University investigating augmented reality for education.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liberty293.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Elizabeth Childs # add your name
 author-img: elizabeth-childs.png # add your photo
-about-author: I am a PhD Candidate at Stanford University investigating augmented reality for education. <br> <br> I work with James Landay and Allison Okamura.
+about-author: "Bachelors of Science in Mechanical Engineering at the University of Maryland, College Park <br><br> Stanford University PhD Candidate <br><br> PhD topic:Augmented Reality for Science Education <br><br> Advisors: James Landay and Allison Okamura <br>"
 # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle

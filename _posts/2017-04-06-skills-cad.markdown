@@ -10,13 +10,12 @@ Below showcases a few projects I have designed throughout my engineering tenure
 ## 3D Modeling and Lighting
 <div style="display: flex;">
     <div style="flex: .835;">
-    <img src="{{site.baseurl}}/assets/img/cad/maya.png" alt="engine" style="max-height: 100%;">
+    <img src="{{site.baseurl}}/assets/img/cad/maya.png" alt="bed" style="max-height: 100%;">
     </div>
     <div style="flex: 1;">
-    <img src="{{site.baseurl}}/assets/img/cad/mayalit.png" alt="engine" style="max-height: 100%;">
+    <img src="{{site.baseurl}}/assets/img/cad/mayalit.png" alt="bed scene" style="max-height: 100%;">
     </div>
 </div>
-
 3D modeling of a bed (left). Modeled bed with associated lighting and texturing to achieve an older, CCTV-like camera asthetic (right)
 
 ## Technical Modeling Dirtbike Engine
