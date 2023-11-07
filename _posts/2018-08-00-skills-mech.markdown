@@ -4,7 +4,7 @@ title: Mechatronics Projects
 date: 2017-09-12 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: mechatronics.png # Add image post (optional)
-tags: [Programming, Learn] # add tag
+tags: [Robotics, Design, 3D Printing] # add tag
 ---
 ## Electronics
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
@@ -13,7 +13,7 @@ tags: [Programming, Learn] # add tag
 This project utilizes an arduino, servos, 3D printed parts, and beam-break sensors to create a foosball-like electronic game.
 
 ## Robotics
-### Bio-Inspired
+### Bio-Inspired - Elizabeth Childs, Nicholas Kim, Gamitha Wijekoon, Jacob Twig
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1f9w7J48sQ79b081Jlvy7kxMqktXiLB5j/preview" ></iframe>
 </div>
@@ -32,7 +32,7 @@ Mahogany was tasked with autonomously "herding sheep" (transporting balls) from 
   <a href="https://me210mahogany.weebly.com/mechanical.html" style="text-align: center;">Link to Project Website</a>
 </p>
 
-#### Fluid Sampling
+#### Fluid Sampling - Elizabeth Childs, Christoph Neisess, Marc Harron, Bailey Murtha, Benjamin Douty, Brian Inzerillo, Yair Pincever, Eric Ramming
 ![osv]({{site.baseurl}}/assets/img/mechatronics/enes100.png)
 The purpose of this project is to make an Over Sand Vehicle (OSV) that can navigate over sand and complete several tasks. The robot must navigate from a random spot with a random orientation behind a wall. After clearing the wall, it must first maneuver itself within 250 mm of an acidic chemical pool, take a sample, read the pH, and neutralize the acid.
 

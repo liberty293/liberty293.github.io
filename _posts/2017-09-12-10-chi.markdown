@@ -6,7 +6,7 @@ date: 2023-04-01
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: chi.jpeg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Augmented Reality, Learning Technology, Education] # add tag
+tags: [Augmented Reality, Education Technology] # add tag
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
