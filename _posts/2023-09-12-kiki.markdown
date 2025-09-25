@@ -1,0 +1,39 @@
+---
+layout: post
+title: Designing Immersive, Narrative-Based Interfaces to Guide Outdoor Learning
+subtitle: Alan Y. Cheng, Jacob Ritchie, Niki Agrawal, Elizabeth Childs, Cyan DeVeaux, Yubin Jee, Trevor Leon, Bethanie Maples, Andrea Cuadra, James A. Landay 
+date: 2023-04-01
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: kiki/teaser.png
+thumbnail: chi.jpeg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Augmented Reality, Education Technology] # add tag
+---
+*Kiki’s Adventure* explores how augmented reality (AR) and computer vision (CV) can enrich outdoor learning when embedded in a narrative app for children. The system supports learners in identifying eucalyptus trees and interacting with them through hands-on, multisensory activities. By anchoring AR elements directly to the environment, the app transforms local ecology into a site of playful, technology-supported exploration.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/5DUo-TWQrcw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+## Concept and Design
+
+The AR system extends narrative-based outdoor learning with three immersive features:  
+
+- **Tree Recognition with CV** – A fine-tuned ResNet-18 classifier, trained on 4,100 images from iNaturalist and field photos, identifies eucalyptus trees with over 96% accuracy. Integrated with the app’s camera, this recognition step anchors AR overlays to the correct tree.  
+- **AR Koala Placement** – Learners can place virtual koalas (Kiki and Coco) into real trees, merging digital characters with the local environment.  
+- **AR Measurement and Planting** – Interactive tools let children measure tree height using AR perspective lines and plant a virtual eucalyptus seedling that appears to grow in the soil.  
+
+These activities were choreographed to fit the learner’s physical movement around the tree, ensuring that AR prompts (e.g., stepping back to measure height) aligned with spatial context. The AR features were designed to keep the experience multisensory and embodied.
+
+## Results
+![Results Fig]({{site.baseurl}}/assets/img/kiki/results.png)
+
+The evaluation with 44 children in grades 4–6 showed that AR made the outdoor learning experience more engaging and memorable, even though it did not always produce stronger quantitative learning gains compared to the narrative-only variant. Children frequently highlighted the AR activities—especially placing the koala, planting the virtual tree, and measuring height—as some of their favorite parts of the lesson. Participants described the AR as “putting virtual reality and real life together,” and many were impressed by how seamlessly digital elements blended with the eucalyptus tree. Although AR features did not directly enhance content mastery beyond narrative alone, they amplified curiosity, multisensory interaction, and enjoyment—factors that can sustain motivation for outdoor learning.
+
+<p align="center">
+  <a href="{{site.baseurl}}/assets/img/kiki/kiki-paper.pdf" style="text-align: center;">Link to Paper</a>
+</p>
+
+
+

@@ -9,13 +9,27 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Elizabeth Childs # add your name
 author-img: elizabeth-childs.png # add your photo
-about-author: "Bachelors of Science in Mechanical Engineering at the University of Maryland, College Park <br><br> Stanford University PhD Candidate <br><br> PhD topic:Augmented Reality for Science Education <br><br> Advisors: James Landay and Allison Okamura <br>"
+about-author: "Stanford University PhD candidate building augmented reality and tangible learning tools that merge mechanical engineering, computer vision, and education."
 # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: liberty293 # add your Github handle
 social-linkedin: ehchilds # add your Linkedin handle
 social-email: elchilds@stanford.edu # add your Email address
+
+focus_areas:
+  - title: Immersive STEM education
+    description: Partnering with educators to create hands-on, technology-rich experiences that broaden participation and deepen understanding.
+    link: /XR-Education/
+    link_label: View learning-focused XR projects
+  - title: Robotics
+    description: Exploring traditional and soft robotics through bio-inspired locomotion, 3D printing, silicone manufacturing, and mechatronics for real-world impact.
+    link: /ME-Robotics/
+    link_label: View robotics research
+  - title: Engineering Design
+    description: Showcasing projects across mechatronics, CAD modeling, manufacturing, and indie game design to bridge engineering and creativity.
+    link: /design/
+    link_label: View design portfolio
 
 # Disqus
 discus-identifier:  # add your discus identifier
@@ -29,8 +43,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-
-paginate: 8
-paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -1,19 +1,130 @@
 ---
 layout: main
----
-{% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-  </div>
-</article>
-{% endfor %}
+title: Elizabeth Childs — Human-Centered Engineer
+highlights:
+  - title: AR-enhanced physics labs for scientific reasoning
+    type: Education · Augmented Reality
+    description: Developed an AR pendulum lab with overlays of protractors, energy flow graphs, and automated period counters, improving students’ scientific reasoning (Cohen’s d = 0.63).
+    link: /pendulum/
+    link_label: View AR lab research
 
-{% include pagination.html %}
+  - title: Additive assembly for multi-material microfluidics
+    type: Manufacturing · Robotics
+    description: Introduced an additive assembly strategy that cuts PolyJet post-processing time by 98% while preserving high-pressure performance for microfluidic capacitors.
+    link: /bam-lab/
+    link_label: View fabrication research
+---
+
+<!-- extra foci: -->
+   <!-- - title: Computational expression & AI
+    description: Building intelligent interfaces that translate speech, gesture, and story into expressive interactions.
+    link: /speech2affectivegestures-synthesizing-co-speech-gestures-with-generative-adversarial-affective-expression-learning/
+    link_label: Read about expressive avatars
+    - title: Human-centered AR for learning
+    description: Prototyping immersive, narrative-driven tools that make complex STEM ideas tangible outside the classroom.
+    link: /designing-immersive-narrative-based-interfaces-to-guide-outdoor-learning/
+    link_label: Explore CHI 2023 research -->
+
+    <!-- extra highlights: -->
+      <!-- - title: Speech2AffectiveGestures
+    type: Research Collaboration
+    description: Developed a generative adversarial framework that synchronizes co-speech gestures with affective cues, advancing expressive communication for embodied agents.
+    link: /speech2affectivegestures-synthesizing-co-speech-gestures-with-generative-adversarial-affective-expression-learning/
+    link_label: Dive into the collaboration 
+      - title: Designing immersive, narrative-based interfaces to guide outdoor learning
+    type: Research · CHI 2023
+    description: A mobile platform that blends narrative, AR, and image recognition to spark curiosity during field explorations. Study participants showed meaningful learning gains and sustained engagement.
+    link: /designing-immersive-narrative-based-interfaces-to-guide-outdoor-learning/
+    link_label: Read the case study-->
+
+<section class="hero" id="top">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Human-Computer Interaction · Mechanical Engineering · Augmented Reality · Education</p>
+    <h1>Designing embodied learning tools that bridge physical making and immersive computing.</h1>
+    <p class="hero-lede">I’m a PhD candidate in Stanford’s HCI Group investigating how augmented reality and intelligent interfaces can increase science learning. My work spans mechanical engineering, extended reality, and participatory design with educators.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{site.baseurl}}/assets/childs_CV_GradSchool_2Page.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="btn btn-secondary" href="#latest-writing">Skip to recent writing</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <h2 class="hero-card-title">Right now</h2>
+    <ul class="hero-card-list">
+      <li><span class="label">PhD Research</span>Augmented reality for outdoor science learning with the Stanford HCI Group</li>
+      <li><span class="label">Advisors</span>James Landay &amp; Allison Okamura</li>
+      <li><span class="label">Approach</span>Human-centered research · Rapid prototyping · Evidence-based evaluation</li>
+    </ul>
+  </div>
+</section>
+
+<section class="focus" id="focus">
+  <div class="section-header">
+    <h2>Research &amp; practice focus</h2>
+    <p>Integrating engineering craft, computation, and pedagogy to build immersive experiences.</p>
+  </div>
+  <div class="focus-grid">
+    {% assign focus_list = site.focus_areas %}
+    {% for item in focus_list %}
+    {% assign focus_slug = item.title | slugify %}
+    <a class="focus-card" id="{{ focus_slug }}" href="{{ item.link | prepend: site.baseurl }}">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      <span class="focus-card-cta">{{ item.link_label }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="highlights" id="highlights">
+  <div class="section-header">
+    <h2>Selected highlights</h2>
+    <p>Representative collaborations across AR, robotics, fabrication, and learning sciences.</p>
+  </div>
+  <div class="highlight-grid">
+    {% for item in page.highlights %}
+    <a class="highlight-card" href="{{ item.link | prepend: site.baseurl }}">
+      <p class="highlight-type">{{ item.type }}</p>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      <span class="highlight-card-cta">{{ item.link_label }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="latest-writing" id="latest-writing">
+  <div class="section-header">
+    <h2>Latest writing &amp; documentation</h2>
+    <p>Notes from projects in mechanical engineering, computing, AR, and education.</p>
+  </div>
+  <div class="post-feed">
+    {% for post in site.posts %}
+    {% if post.listed == false %}
+      {% continue %}
+    {% endif %}
+    {% assign post_link = post.url | prepend: site.baseurl %}
+    <a class="post-card" href="{{ post_link }}">
+      <!-- {% if post.img %}
+        {% capture thumb_url %}{{ site.baseurl }}/assets/img/{{ post.img }}{% endcapture %}
+      {% endif %} -->
+      {% assign thumb = post.thumbnail | default: post.img %}
+      {% if thumb %}
+        {% capture thumb_url %}{{ site.baseurl }}/assets/img/{{ thumb }}{% endcapture %}
+      {% endif %}
+      <div class="post-card-thumb{% unless thumb %} post-card-thumb--placeholder{% endunless %}"
+          {% if thumb %}style="background-image: url({{ thumb_url }})"{% endif %}
+          aria-hidden="true"></div>
+      <div class="post-card-content">
+        <h3 class="post-card-title">{{post.title}}</h3>
+        <p class="post-card-excerpt">{{ post.content | strip_html | truncatewords: 26 }}</p>
+        <div class="post-card-meta">
+          {% unless post.show_date == false %}
+            <span>{{ post.date | date: '%b %Y' }}</span>
+          {% endunless %}
+          <span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " min read" }}{% endunless %}</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>

@@ -6,7 +6,7 @@ date: 2020-06-01 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: bam.png # Add image post (optional)
 fig-caption: microfluidic capacitor # Add figcaption (optional)
-tags: [3D printing, Soft Robotics, Robotics, Design]
+tags: [3D Printing, Soft Robotics, Robotics, Design]
 ---
 PolyJet-based additive manufacturing (3D printing) allow for micro-to-mesoscale fluidic systems to be produced with multiple, fully integrated materials and unparalleled geometric versatility. Although the PolyJet 3D printing process is autonomous and fast, the post-processing methods required to remove the sacrificial materials can be exceedingly time-intensive for systems with enclosed channels, often resulting in device degradation. To bypass such issues, here we present a novel “additive assembly” strategy for realizing PolyJet-printed multi-material microfluidic components.  In this work, we print a microfluidic capacitor (which acts as a balloon to hold fluid akin to an electric capacitor holding charge) as two separate halves to enable facile support material removal, and then fasten the parts together via designed integration features. Fabrication results revealed a significant reduction in post-processing time by approximately 98% compared to enclosed control designs.  Experimental results for burst-pressure testing – a measure of component integrity – revealed that the additively assembled microfluidic capacitors retained a maximum internal pressure in excess of 189 kPa before failure.  The results suggest that the presented additive assembly holds promise for greatly extending the utility of PolyJet 3D printing for microfluidic applications.
 
@@ -28,6 +28,6 @@ Experimental results for the first device initially revealed effective assembly 
 of 189 kPa at which point a diaphragm ruptured (Right figure: green data points.).  Despite differences in designs and printed material properties, the additive assembly results correspond to comparable and/or higher pressures than those reported in prior works for fully enclosed inkjet-printed 3D microfluidic capacitors (See paper for more details).  
 
 <p align="center">
-  <a href="https://ieeexplore.ieee.org/abstract/document/9130818" style="text-align: center;">Link to Paper</a>
+  <a href="{{site.baseurl}}/assets/img/bam/bam-paper.pdf" style="text-align: center;">Link to Paper</a>
 </p>
 
