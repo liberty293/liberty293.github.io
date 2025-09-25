@@ -52,11 +52,12 @@ Sometimes studying flashcards can be boring. However, augmented reality can crea
 
 ## Augmented Reality
 ### Diagnosing Unseen Robot Errors - Lam Research
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+<!-- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/18OwcHgKRvxQDop5DaIBVCX3VmvaQQ6bx/preview" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
 
-Many robots need to be run in opaque boxes for safety and to reduce contamination. However, when this makes it difficult to diagnose and attend to errors when the robot malfunctions. Augmented reality can help engineers visualize robotic information that previously was shown as numbers on a screen. This provides for faster diagnosis and better intuition for robotic maintenance and manipulation. Note the video uses a visible robot to show how the holographic robot can respond to the real robot’s change in movement.
+Many robots need to be run in opaque boxes for safety and to reduce contamination. However, when this makes it difficult to diagnose and attend to errors when the robot malfunctions. Augmented reality can help engineers visualize robotic information that previously was shown as numbers on a screen. This provides for faster diagnosis and better intuition for robotic maintenance and manipulation. 
+<!-- Note the video uses a visible robot to show how the holographic robot can respond to the real robot’s change in movement. -->
 
 ## Education
 ### Teachers' Perspectives on Technologies for Science Labs
