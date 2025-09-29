@@ -965,6 +965,11 @@ table tfoot td {
   -webkit-overflow-scrolling: touch;
 }
 
+.sidebar,
+.sidebar-inner {
+  cursor: pointer;
+}
+
 .sidebar-inner {
   display: -webkit-box;
   display: -webkit-flex;

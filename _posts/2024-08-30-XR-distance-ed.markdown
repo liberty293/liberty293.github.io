@@ -38,5 +38,5 @@ Key areas include:
 * Health concerns – addressing motion sickness, eye strain, and fatigue in extended sessions.
 
 <p align="center">
-  <a href="{{site.baseurl}}/assets/img/TVCG/_site/assets/img/TVCG/Distance-Learning-paper.pdf" style="text-align: center;">Link to Paper</a>
+  <a href="{{site.baseurl}}/assets/img/TVCG/Distance-Learning-paper.pdf" style="text-align: center;">Link to Paper</a>
 </p>

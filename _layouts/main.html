@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<aside class="sidebar">
+<aside class="sidebar" onclick="if (!event.target.closest('a, button')) { window.location.href='{{site.baseurl}}/'; }">
   <div class="sidebar-inner">
     <div class="sidebar-profile">
       <div class="sidebar-profile-text">
