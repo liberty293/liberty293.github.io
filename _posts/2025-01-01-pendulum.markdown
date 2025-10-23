@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Effects of Augmented Reality Enhancements on Students’ Scientific Reasoning in an Introductory Physics Laboratory
+title: Augmented Reality Pendulum Analytics for Energy Diagnostics
 subtitle: Elizabeth Childs, Kongmeng Her, Kristen Pilner Blair, Allison M. Okamura, James A Landay
 date: 2025-09-22 00:00:00 +0300
-description: This study explores how augmented reality (AR) can improve scientific reasoning in physics labs, focusing on precision, uncertainty, and empirical complexity.
+description: Instrumenting a physical pendulum with AR overlays to help multidisciplinary teams see energy transfer, uncertainty, and system health in real time.
 img: pendulum-interface.jpg # Add image post (optional)
 fig-caption: AR-enhanced pendulum experiment # Add figcaption (optional)
-tags: [Augmented Reality, Education Technology]
+tags: [Education Technology, Augmented Reality, Systems Visualization]
 ---
 
-Advances in augmented reality (AR) have been studied to supplement hands-on, physical labs. While prior research has focused on advancing content mastery and science interest, little work has investigated using AR to enhance scientific reasoning in laboratory classrooms. This study introduces an AR-enhanced physics lab to teach scientific reasoning and the understanding of measurement uncertainty. AR overlays of protractors, real-time energy flow graphs, and an automated period counter were created to reduce extraneous cognitive load and illuminate scientific insights throughout a pendulum experiment. Compared to the traditional lab, participants in the AR group demonstrated greater insights into data differences, increased trust in their findings based on uncertainty analysis, and a deeper understanding of energy concepts. Results from the between-participant study (n=52) suggest the AR-enhanced lab enhances participants’ scientific reasoning skills (Bayes factor of 17.44) and demonstrates AR’s potential to improve scientific reasoning while maintaining interest and content mastery.
+Advances in augmented reality (AR) can help elicit latent variables underlying dynamic systems. Using a simple pendulum experiment as our research context, I created an AR interface displaying pendulum angle, energy flow graphs, and real-time state information. When using these system, users can view kinetic, potential, and thermal energy transformations, uncertainies, and damping coefficients that are usually buried in spreadsheets. Compared to a traditional setup, teams equipped with AR noticed subtle data differences faster, and articulated causal explanations with greater confidence. Results from a between-participant study (n=52) show the AR instrumentation strengthened scientific reasoning (Bayes factor 17.44), pointing to how immersive analytics can support deeper system understanding.
 
 ## Concept and Design
 <p style="text-align: center">
@@ -23,15 +23,15 @@ The AR system was developed as a mobile application layered over a **real physic
 - **Period Counter** – Automated timing of oscillations, with both total counts and average periods, relieving participants from hand-counting and reducing measurement error.  
 - **Lab Notebook Interface** – A paired digital notebook that stored results, computed statistics (including t-tests), and displayed uncertainty values alongside measured data.  
 
-By combining real instruments with AR overlays, the system was designed to reduce extraneous cognitive load, support distributed cognition across digital and physical artifacts, and provide meta-representations that connected abstract physics concepts with real-time measurements.
+By combining real instruments with AR overlays, the system was designed to reduce extraneous cognitive load, support distributed cognition across digital and physical artifacts, and provide meta-representations that connect abstract physics concepts with real-time measurements.
 
 
 ## Results
 ![Results Fig]({{site.baseurl}}/assets/img/pendulum/pendulum-results.png)
 
-The results showed that AR-enhanced labs led to significantly greater improvements in scientific reasoning than traditional lab setups. Bayesian analysis produced a Bayes Factor of 18.11 favoring the AR condition, with a medium-to-large effect size (Cohen’s d = 0.63), indicating that participants using AR gained more from the experience. Students in the AR group engaged more deeply with their data: they were more likely to notice differences in energy dissipation, to reference uncertainty in their reasoning, and to trust their results. Energy transfer emerged as a particularly salient concept, with AR participants twice as likely to mention it as an insight compared to the control group. While both groups grasped the main physics concept—that larger angles affect pendulum period—the AR group showed stronger reasoning about why this was the case.
+The results showed that AR-enhanced labs led to significantly greater improvements in scientific reasoning than traditional lab setups. Bayesian analysis produced a Bayes Factor of 18.11 favoring the AR condition, with a medium-to-large effect size (Cohen’s d = 0.63), indicating that participants using AR gained more from the experience. Teams in the AR condition engaged more deeply with latent variables: they were more likely to notice differences in energy dissipation, reference uncertainty in their reasoning, and trust their results. Energy transfer emerged as a particularly salient concept, with AR participants twice as likely to mention it as an insight compared to the control group. While both groups grasped the main physics concept—that larger angles affect pendulum period—the AR group showed stronger reasoning about why this was the case.
 
-The findings suggest AR can act as a cognitive partner in laboratory learning, shifting student attention from procedural demands to critical evaluation of evidence.
+The findings suggest AR can act as a cognitive partner in instrumented labs, shifting attention from procedural demands to to critical evaluation of evidence—an approach that translates directly to diagnosing complex mechanical systems.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1uJWJAeB49VHWlkNaeAU8fhUGLf-JDY0j/preview" ></iframe>
@@ -40,4 +40,3 @@ The findings suggest AR can act as a cognitive partner in laboratory learning, s
 <p align="center">
   <a href="{{site.baseurl}}/assets/img/pendulum/AR_Pendulum.pdf" style="text-align: center;">Link to Paper</a>
 </p>
-

@@ -18,10 +18,10 @@ social-linkedin: ehchilds # add your Linkedin handle
 social-email: elchilds@stanford.edu # add your Email address
 
 focus_areas:
-  - title: Immersive STEM education
-    description: Partnering with educators to create hands-on, technology-rich experiences that broaden participation and deepen understanding.
+  - title: Immersive Technology
+    description: Investigating hands-on, technology-rich experiences that broaden participation and deepen understanding.
     link: /XR-Education/
-    link_label: View learning-focused XR projects
+    link_label: View XR projects
   - title: Robotics
     description: Exploring traditional and soft robotics through bio-inspired locomotion, 3D printing, silicone manufacturing, and mechatronics for real-world impact.
     link: /ME-Robotics/

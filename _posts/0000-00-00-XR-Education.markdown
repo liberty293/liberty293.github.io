@@ -1,27 +1,29 @@
 ---
 layout: post
-title: All AR and Education  Projects
+title: Immersive Visualization Projects
 date: 2017-04-06 13:32:20 +0300
 show_date: false
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Portfolio of AR and visualization work focused on making complex systems legible for cross-functional teams.
 img:  unity.png # Add image post (optional)
-tags: [Augmented Reality, Games, Education Technology, Animation, Design] # add tag
+tags: [Augmented Reality, Systems Visualization, Design, Education Technology] # add tag
 listed: true
 ---
-- [Augmented Reality Education](#augmented-reality-education)
+- [Immersive Analytics](#immersive-analytics)
 - [Augmented Reality](#augmented-reality)
-- [Education](#education)
+- [Insight Frameworks](#insight-frameworks)
 
-## Augmented Reality Education
+## Immersive Analytics
 ### Tracking Energy in Pendulums
-Advances in augmented reality (AR) have been studied to supplement hands-on, physical labs. While prior research has focused on advancing content mastery and science interest, little work has investigated using AR to enhance scientific reasoning in laboratory classrooms. This study introduces an AR-enhanced physics lab to teach scientific reasoning and the understanding of measurement uncertainty. AR overlays of protractors, real-time energy flow graphs, and an automated period counter were created to reduce extraneous cognitive load and illuminate scientific insights throughout a pendulum experiment. Compared to the traditional lab, participants who experienced AR enhancement demonstrated greater insights into data differences, increased trust in their findings based on uncertainty analysis, and a deeper understanding of energy concepts. Results from the between-participant study (n=52) suggest the AR-enhanced lab enhances participants’ scientific reasoning skills (Bayes factor of 17.44) and demonstrates AR’s potential to improve scientific reasoning while maintaining interest and content mastery.
+I use augmented reality (AR) to elicit latent phenomena underlying physical systems. Using a simple pendulum system as a research context, we show how providing real-time energy visualizations and cognative artifiacts (e.g., digital protractors and automatic period counters) help people gain a deeper understanding of the mechanisms driving real pendululm behavior. Our real-time  reduces cognitive overhead and reveals relationships between angle, energy transfer, and damping that are otherwise buried in graphs spreadsheets. In a comparative study (n=52), teams using the AR overlays could better reason about the system data and uncertainty analysis (Bayes factor 17.44), as well as were more likely to bring in latent variables when describing system behavior. 
+
 
 <p align="center">
   <a href="{{site.baseurl}}/pendulum" style="text-align: center;">Link to Page</a>
 </p>
 
 ### XR for Distance Education
-With the rise of distance learning and online education, many educators are seeking new technological solutions to aidstudents in the learning process. As a result, augmented reality (AR) and virtual reality (VR) technologies have gained traction as potential avenues for remote learning. In this paper, we outline the current methods for distance learning, as well as the educational and technical challenges that accompany them. We then summarize prior relevant attempts that leverage AR and VR technologies for educational purposes, evaluate the advantages of AR and VR in an educational context as a whole, and finally assess their limitations as possible avenues for further research.
+With the rise of distance learning and online training, many educators are seeking new technological solutions to aid in the learning process. As a result, augmented reality (AR) and virtual reality (VR) technologies have gained traction as potential avenues for remote education. In this paper, we outline the current methods for online learning, as well as the educational and technical challenges that accompany them. We then summarize prior relevant attempts that leverage AR and VR technologies for educational purposes, evaluate the advantages of AR and VR in an educational context as a whole, and finally assess their limitations as possible avenues for further research.
+
 
 <p align="center">
   <a href="{{site.baseurl}}/XR-distance-ed" style="text-align: center;">Link to Page</a>
@@ -36,7 +38,7 @@ Outdoor learning experiences, such as field trips, can improve children’s scie
 
 
 ### AR Flashcards
-Sometimes studying flashcards can be boring. However, augmented reality can create a fun way to study. This projects showcase two ways AR can help students memorize information in flashcards. Students are able to import flashcards from quizlet or create their own in-app. The app then turns those flashcards into fun, augmented reality games.
+Memorizing terminology is tedious, but necessary for many task performances. This prototype shows two ways AR transforms static flashcards into spatial memory games. Users can import domain taxonomies (or author their own), then manipulate holographic components and scenario prompts that anchor knowledge to spatial cues—useful for onboarding complex workflows.
 
 <div style="display: flex; justify-content: center;">
   <div style="display: flex;">
@@ -57,23 +59,24 @@ Sometimes studying flashcards can be boring. However, augmented reality can crea
 </div> -->
 
 Many robots need to be run in opaque boxes for safety and to reduce contamination. However, when this makes it difficult to diagnose and attend to errors when the robot malfunctions. Augmented reality can help engineers visualize robotic information that previously was shown as numbers on a screen. This provides for faster diagnosis and better intuition for robotic maintenance and manipulation. 
+
 <!-- Note the video uses a visible robot to show how the holographic robot can respond to the real robot’s change in movement. -->
 
-## Education
-### Teachers' Perspectives on Technologies for Science Labs
-High school science laboratories serve as critical spaces for developing scientific reasoning inquiry skills, yet educational technology often struggles to support these practices. Through engaging with science teachers via school visits (n=7), surveys (n=58), and interviews (n=18) spanning diverse socioeconomic contexts, we investigate how teachers envision technology's role in science labs. We identify mismatches between existing technologies and classroom realities. Many technologies focus on showing abstract concepts and "perfect" simulations, while teachers favored students learning the "ways of science'' (e.g., lab skills, designing experimental methods) and grappling messiness of empirical data. Typically, teachers modify traditional labs to meet diverse student needs. However, todays technologies but lack this flexibility. We therefore argue for moving beyond pure technical sophistication towards pedagogy-based technologies that empower teachers and promote equitable science education. In this work, we contribute actionable design guidelines towards laboratory teaching technologies emphasizing customization, preservation of hands-on experiences, and real-world knowledge transfer. 
+## Insight Frameworks
+### Instructors' Perspectives on Lab Technologies
+Hands-on learning and training is critical for assisting in gaining both the psychomotor and mental skills needed for success. While these opportunities can be difficult to do at scale, most technological solutions put learners in front of a screen or remove the realistic, physical aspects of the experience. Using science labs as a reseach context, we investigate how educators view technology for hands-on learning. Through school visits (n=7), surveys (n=58), and interviews (n=18) spanning diverse socioeconomic and domain contexts, we investigate how teachers envision technology's role in science labs. We identify mismatches between existing technologies and classroom realities. Many technologies focus on showing abstract concepts and "perfect" simulations, while teachers favored students learning the "ways of science'' (e.g., lab skills, designing experimental methods) and grappling messiness of empirical data. Typically, teachers modify traditional labs to meet diverse student needs. However, todays technologies but lack this flexibility. We therefore argue for moving beyond pure technical sophistication towards pedagogy-based technologies that empower instructors and promote accessible learning. In this work, we contribute actionable design guidelines towards hands-on technologies emphasizing customization, preservation of hands-on experiences, and real-world knowledge transfer. 
+
 
 <p align="center">
   <a href="{{site.baseurl}}/chi-megapaper" style="text-align: center;">Link to Page</a>
 </p>
 
 ### Thermodynamics
-This simulation allows undergraduate students to view the relationship between temperature, pressure, and entropy. Students are able to manipulate the vapor dome (a 3D map of the aformentioned relationships) and view how it creates the 2D graphs typically used in thermodynamic analysis. This simulation is currently being used at the University of Maryland for helping students understand Thermodynamics. 
+This simulation provides an interactive demonstration of the relationship between temperature, pressure, and entropy. Users manipulate the vapor dome (a 3D map of the relationships) and see how it generates the 2D graphs typically used in thermodynamic analysis. The tool is deployed at the University of Maryland to align researchers around the same mental model of phase-change behavior. 
 
 <p align="center">
   <a href="https://elchilds.su.domains/Thermo/Isos/" style="text-align: center;">Link to Simulation</a>
 </p>
-
 
 
 
