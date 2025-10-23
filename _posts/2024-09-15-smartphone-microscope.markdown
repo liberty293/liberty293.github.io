@@ -4,7 +4,7 @@ title: Smartphone-Enabled Microscope for Situated Science Learning
 subtitle: Elizabeth Childs, Isha Jain, Josephine Miko, Trisha El Chemaly, Ashley Neall
 date: 2024-09-15 00:00:00 +0300
 description: Designing a low-cost, tactile microscope that pairs smartphones with situated classroom studies to expand access to authentic biology labs.
-img: microscope/microscope-cover.jpg
+img: microscope/micro.png
 tags: [Education Technology, Tangible Interfaces]
 ---
 
