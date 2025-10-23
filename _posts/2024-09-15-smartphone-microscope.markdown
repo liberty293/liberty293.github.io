@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Smartphone-Enabled Microscope for Situated Science Learning
-subtitle: Elizabeth Childs · Stanford HCI Group
+subtitle: Elizabeth Childs, Isha Jain, Josephine Miko, Trisha El Chemaly, Ashley Neall
 date: 2024-09-15 00:00:00 +0300
 description: Designing a low-cost, tactile microscope that pairs smartphones with situated classroom studies to expand access to authentic biology labs.
 img: microscope/microscope-cover.jpg
@@ -31,14 +31,7 @@ We partner with teachers in under-resourced districts to run situated classroom 
 
 ## Demo
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://player.vimeo.com/video/000000000" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/17hLX-6uEKsp1sqATgGSKgOgYhiyKpDla/preview" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-<p align="center"><em>Demo video coming soon — placeholder clip above.</em></p>
-
-## What’s Next
-- Pilot the latest prototype in Bay Area classrooms to measure learning gains in observational accuracy and vocabulary use.
-- Integrate optional low-bandwidth image streaming so students can revisit microscope sessions from home.
-- Publish open-source build files and facilitation guides to enable teacher-led local fabrication.
-
-If you’re interested in classroom pilots or collaboration, reach out at <a href="mailto:{{site.social-email}}">{{site.social-email}}</a>.
+<p align="center"><em>Demo video of microscope.</em></p>
