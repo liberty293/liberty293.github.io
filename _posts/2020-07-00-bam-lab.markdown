@@ -1,26 +1,37 @@
 ---
 layout: post
-title: Additive Assembly for PolyJet-Based Multi-Material 3D Printed Microfluidics
-subtitle: Elzabeth Childs, Andrew Latchman, Andrew Lamont, Joshua Hubbard, Ryan Sochol
+title: Additive Assembly for 3D-Printed Microfluidics
+subtitle: Elizabeth Childs, Andrew Latchman, Andrew Lamont, Joshua Hubbard, Ryan Sochol
 date: 2020-06-01 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: An additive assembly strategy that cuts PolyJet post-processing time by about 98% while preserving high-pressure performance for multi-material microfluidics.
 img: bam.png # Add image post (optional)
 fig-caption: microfluidic capacitor # Add figcaption (optional)
-tags: [3D Printing, Soft Robotics, Robotics, Design]
+tags: [3D Printing, CAD, Design for Manufacturing, Experimental Testing, SolidWorks, Mentorship]
+pillar: foundations
+glance:
+  - label: Role
+    value: Lead author. Led a project team with an undergraduate and a master's student, designed the additive assembly approach and its printed fasteners, and ran the burst-pressure testing.
+  - label: Lab
+    value: Bioinspired Advanced Manufacturing (BAM) Lab, University of Maryland. Advisor, Prof. Ryan D. Sochol
+  - label: Tools & techniques
+    value: Multi-material PolyJet 3D printing, SolidWorks, design for manufacturing (integrated fasteners and seals), and empirical testing.
+  # Hidden from the page; kept for reference.
+  # - label: Publication
+  #   value: "Additive Assembly for PolyJet-Based Multi-Material 3D Printed Microfluidics, Journal of Microelectromechanical Systems, 2020"
 ---
-PolyJet-based additive manufacturing (3D printing) allow for micro-to-mesoscale fluidic systems to be produced with multiple, fully integrated materials and unparalleled geometric versatility. Although the PolyJet 3D printing process is autonomous and fast, the post-processing methods required to remove the sacrificial materials can be exceedingly time-intensive for systems with enclosed channels, often resulting in device degradation. To bypass such issues, here we present a novel “additive assembly” strategy for realizing PolyJet-printed multi-material microfluidic components.  In this work, we print a microfluidic capacitor (which acts as a balloon to hold fluid akin to an electric capacitor holding charge) as two separate halves to enable facile support material removal, and then fasten the parts together via designed integration features. Fabrication results revealed a significant reduction in post-processing time by approximately 98% compared to enclosed control designs.  Experimental results for burst-pressure testing – a measure of component integrity – revealed that the additively assembled microfluidic capacitors retained a maximum internal pressure in excess of 189 kPa before failure.  The results suggest that the presented additive assembly holds promise for greatly extending the utility of PolyJet 3D printing for microfluidic applications.
+Multi-material 3D printing can produce intricate fluidic devices, but cleaning the support material out of enclosed channels is slow and often damages the part. Instead of printing the device closed, this work prints it as two open halves with built-in fasteners and seals, then fastens them together. The approach cut post-processing time by about **98%**, and the assembled devices withstood burst pressures **comparable to or higher than** fully enclosed printed devices from prior work. It is a design-for-manufacturing solution: changing how a part is designed to remove a bottleneck in how it is made.
 
 ## Concept and Design
 <p style="text-align: center">
   <img src="{{site.baseurl}}/assets/img/bam/bam-concept.png" width="60%"/>
 </p>
 
-The additive assembly methodology in this work consists of five key steps.  First, a 3D model of a microfluidic system is sectioned into separated components such that any and all internal channels become unenclosed.  As shown in figure above, an enclosed microfluidic capacitor would be divided into two unenclosed halves. The capacitor would be printed with flexible (shown in black), rigid (shown in white), and sacrificial support (shown in yellow). Features that promote flexible-to-rigid interactions akin to O-rings and fastener elements are added along critical points for optimal fluidic sealing. The resulting parts are then PolyJet 3D printed with the unenclosed channels facing upward, such that the sacrificial support material is never deposited into the unenclosed channels (Fig. a).  Next, the water-soluble support material is removed from the parts (Fig. b).  Lastly, the fasteners with string-like extrusions – all printed in place (Fig. a,b) – are used to align the parts and then tightly seal the final assembly (Fig. c). Thereafter, the part can be used for microfluidic operations (Fig d).  
+The additive assembly methodology in this work consists of five key steps.  First, a 3D model of a microfluidic system is sectioned into separated components such that any and all internal channels become unenclosed.  As shown in the figure above, an enclosed microfluidic capacitor would be divided into two unenclosed halves. The capacitor would be printed with flexible (shown in black), rigid (shown in white), and sacrificial support (shown in yellow). Features that promote flexible-to-rigid interactions akin to O-rings and fastener elements are added along critical points for optimal fluidic sealing. The resulting parts are then PolyJet 3D printed with the unenclosed channels facing upward, such that the sacrificial support material is never deposited into the unenclosed channels (Fig. a).  Next, the water-soluble support material is removed from the parts (Fig. b).  Lastly, the fasteners with string-like extrusions – all printed in place (Fig. a,b) – are used to align the parts and then tightly seal the final assembly (Fig. c). Thereafter, the part can be used for microfluidic operations (Fig d).  
 
 ## Results
 ![Results Fig]({{site.baseurl}}/assets/img/bam/bam-results.png)
 
-To investigate the sealing efficacy of the additive assembly strategy, we aligned the distinct PolyJet-printed parts, assembled them into a singular component using the printed fasteners, and performed burst-pressure experiments with three distinct devices. The resulting capacitor is shown in the left on the figure above before (top) and after (bottom) assembly. Once assembled, the microfluidic capacitor design results in visible inflation of the flexible diaphragm under an applied input pressure, as shown in the middle image (top).  For the burst pressure test, each device was submerged in water (bottom) and monitored for two types of failure modes resulting in visible leakage (i.e., air bubble generation):
+To investigate the sealing efficacy of the additive assembly strategy, we aligned the distinct PolyJet-printed parts, assembled them into a singular component using the printed fasteners, and performed burst-pressure experiments with three distinct devices. The resulting capacitor is shown on the left of the figure above before (top) and after (bottom) assembly. Once assembled, the microfluidic capacitor design results in visible inflation of the flexible diaphragm under an applied input pressure, as shown in the middle image (top).  For the burst pressure test, each device was submerged in water (bottom) and monitored for two types of failure modes resulting in visible leakage (i.e., air bubble generation):
 1. assembly-associated leakage (from locations where the two distinct parts interact)
 2. diaphragm leakage/fracture, which is unrelated to the additive assembly process
 

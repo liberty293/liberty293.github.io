@@ -1,26 +1,36 @@
 ---
 layout: post
-title: Centering Teachers’ Voices Design Guidelines for High School Laboratory Technologies
+title: Teachers’ Perspectives on Technologies for Science Labs
 subtitle: Elizabeth Childs, Jane E, Allison Okamura, James Landay
 date: 2025-09-01 00:00:00 +0300
 description: Why so many edtech tools fail in real classrooms—and what teachers say they actually need for science labs.
 img: mega.png
-tags: [Augmented Reality, Education Technology, Co-Design, HCI] # add tag
+tags: [Qualitative Research, Interviews, Surveys, Needfinding]
+pillar: other
+glance:
+  - label: Role
+    value: Lead author. Led the school visits, surveys, and teacher interviews, and the qualitative analysis.
+  - label: Study
+    value: Visits to 7 schools, surveys of 58 teachers, and interviews with 18 teachers across a wide range of socioeconomic contexts
+  - label: Tools & techniques
+    value: Needfinding, classroom observation, surveys, semi-structured interviews, and qualitative analysis.
+  # Hidden from the page; kept for reference.
+  # - label: Paper
+  #   value: "Centering Teachers’ Voices: Design Guidelines for High School Laboratory Technologies"
 ---
-
-For decades, each “new wave” of educational technology—-computers, XR, now generative AI—-has promised transformation. Yet classrooms remain full of abandoned pilots and one-off demos. This study flips the lens: instead of evaluating technologies in isolation, it centers teachers’ voices about what actually works in high school science labs.
+For decades, each “new wave” of educational technology—computers, XR, now generative AI—has promised transformation. Yet classrooms remain full of abandoned pilots and one-off demos. This study flips the lens: instead of evaluating technologies in isolation, it centers teachers’ voices about what actually works in high school science labs.
 
 Through site visits, surveys, and follow-up interviews, we surfaced the tensions that derail adoption and translated them into design guidelines for classroom-ready tools.
 
 ## Key Findings
 
-Hands-on labs are still important part of laboratory learning. Virtual labs are seen as safer and cheaper, but teachers dislike them for being “not real,” unengaging, and poor at teaching lab skills. The ideal space for technology in educational labs is in augmentation, not replacement. Simulations that take away the ability to design experiments and collect data, instead enerating perfect results, undermine science practice. Teachers want technology to embrace error, not erase it. Technology can augment science practices by modeling contamination, variability, and ambiguity so students learn to reason about real data. 
+Hands-on labs are still an important part of laboratory learning. Virtual labs are seen as safer and cheaper, but teachers dislike them for being “not real,” unengaging, and poor at teaching lab skills. The ideal space for technology in educational labs is in augmentation, not replacement. Simulations that take away the ability to design experiments and collect data, instead generating perfect results, undermine science practice. Teachers want technology to embrace error, not erase it. Technology can augment science practices by modeling contamination, variability, and ambiguity so students learn to reason about real data. 
 
 Math and literacy gaps are the hidden blockers to technology adoption. Half of teachers reported students struggling with algebra in labs; nearly a third cited reading barriers. They want tech that dynamically simplifies text, provides just-in-time scaffolds, and links visualizations to equations.
 
 Technology can help create real-world connections. Teachers repeatedly emphasized that labs are most powerful when students can see the relevance of science beyond the classroom. While content mastery is important, many teachers described their ultimate goal as helping students transfer scientific reasoning into their own lives and communities. They feel technology can help connect science to everyday experiences and broader societal issues (e.g., climate change, health).
 
-Educational laboratory tech needs to be more customizabile. Nearly all teachers reported  adapting labs to student and classroom needs, but most technologies lock them into rigid representations (e.g., generic molecular models or symbols different than current curricula). Because labs are rarely “one-size-fits-all,” teachers need the agency to adapt technology just as easily as they can customize PowerPoints.
+Educational laboratory tech needs to be more customizable. Nearly all teachers reported adapting labs to student and classroom needs, but most technologies lock them into rigid representations (e.g., generic molecular models or symbols different than current curricula). Because labs are rarely “one-size-fits-all,” teachers need the agency to adapt technology just as easily as they can customize PowerPoints.
 
 ## Summary of Design Guidelines  
 

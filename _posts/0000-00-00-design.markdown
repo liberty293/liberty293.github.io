@@ -1,78 +1,50 @@
 ---
 layout: post
-title: Design Projects
+title: Physical Interfaces for Digital Systems
 date: 2000-04-06 13:32:20 +0300
 show_date: false
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: clock.png # Add image post (optional)
-tags: [Design, Animation] # add tag
+listed: false
+pillar: interfaces
+description: Haptic robots, sensor-driven instruments, and mechatronic games that give digital applications a physical body people can push, turn, and feel.
+img: themes/physical-interfaces.webp # Add image post (optional)
+tags: [Mechatronics, Embedded Systems, Sensor Integration & Fusion, 3D Printing, Game Design]
 ---
-Below showcases a few projects I have designed throughout my engineering tenure
+I combine mechatronics, embedded sensing, haptics, and augmented reality to give digital systems a physical form. My projects include a haptic robot for feeling simulated forces, a smartphone-enabled microscope, and a mechatronic tabletop game.
 
-- [Mechatronics](#mechatronics)
-- [CAD and Manufacturing](#cad-and-manufacturing)
-- [Video Games](#video-games)
+- [KITE: Feeling Simulated Forces](#kite-feeling-simulated-forces)
+- [Smartphone-Enabled Microscope](#smartphone-enabled-microscope)
+- [Mario vs. Sonic: A Mechatronic Tabletop Game](#mario-vs-sonic-a-mechatronic-tabletop-game)
 
-## Mechatronics
+## KITE: Feeling Simulated Forces
+*Microsoft Research*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/JxwKrtG6HAw?rel=0&start=120" frameborder="0" allowfullscreen></iframe>
+</div>
+KITE turns physics simulations into something you can feel. It glides across the desk like a mouse until it meets a virtual object or force, then pushes back in line with what's on screen. Learners can feel lift on an airfoil, pull a molecular bond apart, stretch a spring, and compare different kinds of friction with their own hands.
+
+**Tools & techniques:** Haptic rendering, force feedback, simulation integration, and interaction design.
+
+<p align="center">
+  <a href="{{site.baseurl}}/kite" style="text-align: center;">Link to Page</a>
+</p>
+
+## Smartphone-Enabled Microscope
+<p align="center">
+  <img src="{{site.baseurl}}/assets/img/microscope/micro.png" alt="Smartphone-enabled microscope" width="40%"/>
+</p>
+
+A low-cost microscope built from 3D-printed parts and off-the-shelf electronics. Its real focus knob, objective turret, and slide stage are instrumented with encoders, magnetic detents, and potentiometers, so turning them drives high-resolution imagery on a connected smartphone. Students keep the physical habits of microscopy without the cost and fragility of lab optics.
+
+**Tools & techniques:** Sensor integration, syncing hardware with a mobile app, 3D printing, and designing for low cost.
+
+<p align="center">
+  <a href="{{site.baseurl}}/smartphone-microscope" style="text-align: center;">Link to Page</a>
+</p>
+
+## Mario vs. Sonic: A Mechatronic Tabletop Game
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/e7sFuR1ro0Q" frameborder="0" allowfullscreen></iframe>
 </div>
-This project utilizes an arduino, servos, 3D printed parts, and beam-break sensors to create a foosball-like electronic game.
+Mario and Sonic face off in a tabletop hockey game where the play is physical but the game is digital. Using buttons, players move and swing physical hockey sticks across the board, and beam-break sensors catch every goal so the electronics can keep score and react in real time. The mechanism and the game logic were designed together, so each physical play becomes a game event.
 
-## CAD and Manufacturing
-### 3D Modeling and Lighting
-<div style="display: flex;">
-    <div style="flex: .835;">
-    <img src="{{site.baseurl}}/assets/img/cad/maya.png" alt="bed" style="max-height: 100%;">
-    </div>
-    <div style="flex: 1;">
-    <img src="{{site.baseurl}}/assets/img/cad/mayalit.png" alt="bed scene" style="max-height: 100%;">
-    </div>
-</div>
-3D modeling of a bed (left). Modeled bed with associated lighting and texturing to achieve an older, CCTV-like camera asthetic (right)
-
-### Technical Modeling Dirtbike Engine 
-Elizabeth Childs, Aya Gandolfo, Brandon Greulich, Samy Abisaleh, Keonwoo Kim, Daniel Yang
-<div style="display: flex;">
-    <div style="flex: .835;">
-    <img src="{{site.baseurl}}/assets/img/cad/engine.png" alt="engine" style="max-height: 100%;">
-    </div>
-    <div style="flex: 1;">
-        <iframe src="https://drive.google.com/file/d/1v3xmsTUhEDlkm4o_oAWPu2sqLWQheLOy/preview" width="100%" height="315" frameborder="0" allowfullscreen="true"></iframe>
-    </div>
-</div>
-
-The YZ250F Yamaha dirtbike engine with accompanied tailpipe and kickstand (left). The entire animated bike is shown on the right. Our team recreated the bike was recreated from its original technical specifications.
-
-### Human Powered Washing Machine 
-Elizabeth Childs, Alec Hall, Daven Patel, Matthew O'Connelll, Seva Zhuravskiy
-<div style="position: relative; padding-bottom: 56.25%; overflow: hidden; max-width: 100%;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1Qw2BKwE6Cvz-prcSErcbpnO3-9WOHrSe/preview" frameborder="0" allowfullscreen></iframe>
-</div>
-Group Design of a Human Powered Washing Machine
-
-### CNC Machining
-![CNC]({{site.baseurl}}/assets/img/manufacture/CNC.png)
-Left: CNC whistle
-Right: Magnetic Stamp and cover
-
-## Video Games
-### Feeding Turnips - Elizabeth Childs, Dora Song, Tyler Kits, Alex Richman
-Take care to feed your turnip and water him often. What will happen when it is full? And who's satisfaction is increasing? Is it the turnip's? Or someone else's? Fill the bar for a surprise.
-<p align="center">
-  <a href="https://liberty293.github.io/Turnip-/" style="text-align: center;">Link to Game</a>
-</p>
-
-### The Rhythm of Fuzzy Wuzzy - Elizabeth Childs, Joel Samuel
-This is a quick rhythm game where you use the wasd keys to jump over puddles, duck under bridges, and fight birds to escape.
-<p align="center">
-  <a href="https://liberty293.github.io/CMSC435-Project/" style="text-align: center;">Link to Game</a>
-</p>
-<!-- <div style="position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe
-    src="https://elchilds.su.domains/CMSC435-Project/"
-    title="Feeding Turnips"
-    allow="fullscreen"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-  ></iframe>
-</div> -->
+**Tools & techniques:** Arduino programming, servo actuation, beam-break sensing, 3D printing, and linking physical play to game logic.

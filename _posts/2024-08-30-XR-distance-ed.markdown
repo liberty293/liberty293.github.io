@@ -1,12 +1,20 @@
 ---
 layout: post
-title: An Overview of Enhancing Distance Learning Through Augmented and Virtual Reality Technologies
-subtitle: Elizabeth Childs , Ferzam Mohammad, Logan Stevens, Hugo Burbelo, Amanuel Awoke, Nicholas Rewkowski, and Dinesh Manocha
+title: AR and VR for Distance Learning
+subtitle: Elizabeth Childs, Ferzam Mohammad, Logan Stevens, Hugo Burbelo, Amanuel Awoke, Nicholas Rewkowski, and Dinesh Manocha
 date: 2024-08-30 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: A survey of how augmented and virtual reality can support distance learning, covering social presence, engagement, comprehension, and instructor tooling.
 img: TVCG/quiver.png # Add image post (optional)
-tags: [Augmented Reality, Education Technology] # add tag
-
+tags: [Augmented Reality, Virtual Reality, Literature Review]
+pillar: other
+glance:
+  - label: Role
+    value: Co-lead author (equal contribution). Wrote the sections on immersive environments and on AR for distance learning.
+  - label: Tools & techniques
+    value: Literature review and synthesis, AR and VR system analysis, and academic writing.
+  # Hidden from the page; kept for reference.
+  # - label: Publication
+  #   value: "An Overview of Enhancing Distance Learning Through Augmented and Virtual Reality Technologies, IEEE Transactions on Visualization and Computer Graphics, 2024"
 ---
 
 Extended reality (XR)—including Augmented Reality (AR) and Virtual Reality (VR)—is often pitched as the future of education. But beyond the hype, what actually makes XR worth considering for distance learning programs? This paper highlights strengths and challenges with using XR in distance education.

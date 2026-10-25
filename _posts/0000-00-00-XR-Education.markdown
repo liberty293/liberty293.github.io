@@ -1,79 +1,51 @@
 ---
 layout: post
-title: All AR and Education  Projects
+title: Tangible Learning Experiences
 date: 2017-04-06 13:32:20 +0300
 show_date: false
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  unity.png # Add image post (optional)
-tags: [Augmented Reality, Games, Education Technology, Animation, Design] # add tag
-listed: true
+listed: false
+pillar: experiences
+description: Classroom and field studies on augmenting real experiments, specimens, and environments, rather than replacing them, to deepen scientific reasoning and engagement.
+img: themes/tangible-learning.webp # Add image post (optional)
+tags: []
 ---
-- [Augmented Reality Education](#augmented-reality-education)
-- [Augmented Reality](#augmented-reality)
-- [Education](#education)
+I run classroom and field studies to evaluate how digital augmentation deepens hands-on experiences. They cover an AR-enhanced pendulum lab, an AR yeast fermentation lab, and AR for outdoor field learning.
 
-## Augmented Reality Education
-### Tracking Energy in Pendulums
-Advances in augmented reality (AR) have been studied to supplement hands-on, physical labs. While prior research has focused on advancing content mastery and science interest, little work has investigated using AR to enhance scientific reasoning in laboratory classrooms. This study introduces an AR-enhanced physics lab to teach scientific reasoning and the understanding of measurement uncertainty. AR overlays of protractors, real-time energy flow graphs, and an automated period counter were created to reduce extraneous cognitive load and illuminate scientific insights throughout a pendulum experiment. Compared to the traditional lab, participants who experienced AR enhancement demonstrated greater insights into data differences, increased trust in their findings based on uncertainty analysis, and a deeper understanding of energy concepts. Results from the between-participant study (n=52) suggest the AR-enhanced lab enhances participants’ scientific reasoning skills (Bayes factor of 17.44) and demonstrates AR’s potential to improve scientific reasoning while maintaining interest and content mastery.
+- [Augmenting Physical Labs](#augmenting-physical-labs)
+- [Augmenting the Outdoors](#augmenting-the-outdoors)
+
+## Augmenting Physical Labs
+### AR-Enhanced Physics Lab
+<p align="center">
+  <img src="{{site.baseurl}}/assets/img/pendulum-interface.jpg" alt="AR interface overlaid on a real pendulum experiment" width="80%"/>
+</p>
+A real pendulum experiment augmented with AR measurement tools: a protractor anchored at the pivot, a live graph of energy flowing between potential, kinetic, and dissipated forms, and an automatic period counter. Instead of replacing the experiment, the overlays take over tedious measurement so students can focus on reasoning about their data. In a study with 52 students, the AR lab improved scientific reasoning over the traditional lab (Cohen's d = 0.63, Bayes factor 18.11) while maintaining interest and content mastery.
+
+**Tools & techniques:** Augmented reality, computer vision, real-time data visualization, laser cutting, between-subjects user study, and Bayesian analysis.
 
 <p align="center">
   <a href="{{site.baseurl}}/pendulum" style="text-align: center;">Link to Page</a>
 </p>
 
-### XR for Distance Education
-With the rise of distance learning and online education, many educators are seeking new technological solutions to aidstudents in the learning process. As a result, augmented reality (AR) and virtual reality (VR) technologies have gained traction as potential avenues for remote learning. In this paper, we outline the current methods for distance learning, as well as the educational and technical challenges that accompany them. We then summarize prior relevant attempts that leverage AR and VR technologies for educational purposes, evaluate the advantages of AR and VR in an educational context as a whole, and finally assess their limitations as possible avenues for further research.
+### Visualizing Biological Mechanisms
+<video autoplay muted loop playsinline preload="metadata" poster="{{site.baseurl}}/assets/img/enzyme/enzyme-app.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+  <source src="{{site.baseurl}}/assets/video/enzyme-dynamics.mp4" type="video/mp4">
+</video>
+An AR app that runs alongside a real high school biology lab on yeast fermentation. As students' balloons inflate, the app shows enzymes splitting sugar into alcohol and CO₂, and the CO₂ rising into each balloon. The app uses computer vision to track the volume of each real balloon and converts it into how many reactions the enzymes have catalyzed, so the animation, including how enzymes speed up or slow down with temperature, reflects the students' own experiment and shows the mechanism behind their observations. It has been tested at 5 institutions with over 100 students.
+
+**Tools & techniques:** Unity, OpenCV, augmented reality, computer-vision volume tracking, and classroom deployment.
 
 <p align="center">
-  <a href="{{site.baseurl}}/XR-distance-ed" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/enzyme-dynamics" style="text-align: center;">Link to Page</a>
 </p>
 
-### Location-Based Outdoor Learning
-Outdoor learning experiences, such as field trips, can improve children’s science achievement and engagement, but these experiences are often difficult to deliver without extensive support. Narrative in educational experiences can provide needed structure, while also increasing engagement. We created a narrative-based, mobile application to investigate how to guide young learners in interacting with their local, outdoor environment. In a second variant, we added augmented reality and image classification to explore the value of these features. A study (n = 44) found that participants using our system demonstrated learning gains and found the experience engaging. Our findings identified several major themes, including participant excitement for hands-on interactions with nature, curiosity about the characters, and enthusiasm toward typing their thoughts and observations. We offer a set of design implications for supporting narrative-based, outdoor learning with immersive technology.
+## Augmenting the Outdoors
+### AR for Outdoor Field Learning
+![Kiki's Adventure outdoor AR app]({{site.baseurl}}/assets/img/kiki/teaser.png)
+A narrative mobile app that turns a real eucalyptus tree into a hands-on science lesson for children. Computer vision recognizes the tree with over 96% accuracy, then AR activities anchor to it: children place virtual koalas in its branches, measure its height with AR perspective lines, and plant a virtual seedling that grows in the soil. In a study with 44 children in grades 4–6, the AR activities were among their favorite parts of the lesson, sparking curiosity and engagement outdoors.
+
+**Tools & techniques:** Augmented reality, mobile app development, anchoring AR content in real-world locations, and field studies with children.
 
 <p align="center">
   <a href="{{site.baseurl}}/kiki" style="text-align: center;">Link to Page</a>
 </p>
-
-
-### AR Flashcards
-Sometimes studying flashcards can be boring. However, augmented reality can create a fun way to study. This projects showcase two ways AR can help students memorize information in flashcards. Students are able to import flashcards from quizlet or create their own in-app. The app then turns those flashcards into fun, augmented reality games.
-
-<div style="display: flex; justify-content: center;">
-  <div style="display: flex;">
-      <div style="flex: 1;">
-          <iframe src="https://drive.google.com/file/d/1K4BgvfuFuLtcIip8PlXwF9Pl_2PQxxUZ/preview" height="400" frameborder="0" allowfullscreen="true"></iframe>
-      </div>
-      <div style="flex: 1;">
-  <iframe src="https://drive.google.com/file/d/1TPx92Qq_4ciKT0sKNYZDCdYTqJTCPo-c/preview"  height="400" frameborder="0" allowfullscreen="true"></iframe>
-      </div>
-  </div>
-</div>
-
-
-## Augmented Reality
-### Diagnosing Unseen Robot Errors - Lam Research
-<!-- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/18OwcHgKRvxQDop5DaIBVCX3VmvaQQ6bx/preview" frameborder="0" allowfullscreen></iframe>
-</div> -->
-
-Many robots need to be run in opaque boxes for safety and to reduce contamination. However, when this makes it difficult to diagnose and attend to errors when the robot malfunctions. Augmented reality can help engineers visualize robotic information that previously was shown as numbers on a screen. This provides for faster diagnosis and better intuition for robotic maintenance and manipulation. 
-<!-- Note the video uses a visible robot to show how the holographic robot can respond to the real robot’s change in movement. -->
-
-## Education
-### Teachers' Perspectives on Technologies for Science Labs
-High school science laboratories serve as critical spaces for developing scientific reasoning inquiry skills, yet educational technology often struggles to support these practices. Through engaging with science teachers via school visits (n=7), surveys (n=58), and interviews (n=18) spanning diverse socioeconomic contexts, we investigate how teachers envision technology's role in science labs. We identify mismatches between existing technologies and classroom realities. Many technologies focus on showing abstract concepts and "perfect" simulations, while teachers favored students learning the "ways of science'' (e.g., lab skills, designing experimental methods) and grappling messiness of empirical data. Typically, teachers modify traditional labs to meet diverse student needs. However, todays technologies but lack this flexibility. We therefore argue for moving beyond pure technical sophistication towards pedagogy-based technologies that empower teachers and promote equitable science education. In this work, we contribute actionable design guidelines towards laboratory teaching technologies emphasizing customization, preservation of hands-on experiences, and real-world knowledge transfer. 
-
-<p align="center">
-  <a href="{{site.baseurl}}/chi-megapaper" style="text-align: center;">Link to Page</a>
-</p>
-
-### Thermodynamics
-This simulation allows undergraduate students to view the relationship between temperature, pressure, and entropy. Students are able to manipulate the vapor dome (a 3D map of the aformentioned relationships) and view how it creates the 2D graphs typically used in thermodynamic analysis. This simulation is currently being used at the University of Maryland for helping students understand Thermodynamics. 
-
-<p align="center">
-  <a href="https://elchilds.su.domains/Thermo/Isos/" style="text-align: center;">Link to Simulation</a>
-</p>
-
-
-
-

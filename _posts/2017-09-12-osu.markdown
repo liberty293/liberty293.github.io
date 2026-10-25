@@ -1,39 +1,47 @@
 ---
 layout: post
-title: Impact Absorbsion via Mechanical Design
-subtitle: 'Advisor: Johnathan Hurst - Agility Robotics'
-date: 2017-09-12 
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+title: Impact-Absorbing Feet for the Cassie Bipedal Robot
+subtitle: Oregon State University · Dynamic Robotics Laboratory
+date: 2018-08-01
+description: Redesigning the feet of the Cassie bipedal robot with silicone and foam honeycombs to cut impact forces by over 90% without disturbing its balance control.
 img: osu/cassie.png # Add image post (optional)
-tags: [Robotics, Design, 3D Printing] # add tag
-
+tags: [Robotics, Silicone Molding, Experimental Testing]
+pillar: foundations
+glance:
+  - label: Role
+    value: Undergraduate researcher (NSF-sponsored). Designed, fabricated, and tested the new feet.
+  - label: Advisor
+    value: Prof. Jonathan Hurst
+  - label: Results
+    value: Peak impact force reduced by over 47%, time to peak force increased by over 600%, and overall step impact reduced by over 90%
+  - label: Tools & techniques
+    value: Silicone and foam manufacturing, material characterization, force-plate testing, and designing within the constraints of an existing control system.
 ---
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1TLNToWvCaxw_bIhwnJBLBgxj5KIDgtc7/preview" frameborder="0" allowfullscreen></iframe>
+</div>
+<p align="center"><em>The original foot (left) compared with the new foot (right).</em></p>
 
-Cassie is a bipedal robot that walks with quiet actuators. However, her hard feet create loud impacts, putting stress on the mechanical parts, as well as hindering human robot interaction. Using a combination of silicones and foams, I created new foot designs in order to reduce the peak walking impact without hindering current locomotion controls. We tested the designs on force plate and with a simulated walking gait to measure peak forces and time to peak force. We then tested the top designs on the Cassie robot both in standing phase and walking phase to insure the controls were not heavily affected. The top design (a hexagon honeycomb) decreased the peak force during impact by over 47% and increased the time to peak force by over 600%. Consequently, the impact of each step was reduced by over 90%. The design also integrated seamlessly into Cassie’s current controls.
+Cassie is a bipedal robot with quiet actuators, but its hard feet slammed into the ground with every step. The impacts were loud, stressed the robot's mechanical parts, and made it less safe to work around people. I designed new feet from silicones and foams that absorb those impacts without disrupting Cassie's existing balance control. The best design, a silicone honeycomb with foam inserts, reduced peak impact force by over **47%**, increased the time to peak force by over **600%**, and reduced the overall impact of each step by over **90%**, all with no changes to the controller.
 
 ## Design Constraints
-At the time, the robotic locomotion controls did not contain velocity matching, meaning each foot slammed into the ground with the full force of the motors for each step. Additionally, the robot relied on the stiffness of the feet to provide accurate balance control. Therefore, to be used in locomotion, the new feet needed to be complient enough to absorb the impact of walking, while stiff enough not to interfere with the balance algorithm.
+At the time, Cassie's locomotion controller did not include velocity matching, so each foot hit the ground with the full force of the motors. The controller also relied on stiff feet for accurate balance. The new feet therefore had to be compliant enough to absorb the impact of walking, yet stiff enough not to interfere with the balance algorithm.
 
-## Design Methedology
-
-Various foot designs were explored within two design spaces: geometry and material. Within geometry, honycombs, procedural diamonds were explored. Within materials, a combination of foams, silicones, and the patented gel from Purple Matress was explored.
+## Design Methodology
+I explored foot designs across two design spaces, geometry and material. The geometries included cones, diamonds, and honeycombs. The materials included silicones, foams, and the patented gel used in Purple mattresses. Each design was tested on a force plate with a simulated walking gait to measure peak force and time to peak force, and the top designs were then tested on Cassie itself while standing and walking to make sure the controls were not affected.
 
 ### Geometries
-![geometries]({{site.baseurl}}/assets/img/osu/geoms.png)
-For all of these designs, foam was added within the geometries 
+![Foot geometries tested]({{site.baseurl}}/assets/img/osu/geoms.png)
+Foam was added inside each of these geometries.
 
-* The collapsable cone (left) was created to systematically absorb the impact as the cone collapses. It was proven to be incompatible with the robots control algorithm.
-* The diamonds gemoetry (middle) was the unique geometry of Purple Mattress. This patented technology designed to absorb fast impulses and reduce impacts. This absorbed much of the impact, and was compatible with the robots control algorithm.
-* The hexagon geometry (right) incorporated a honycomb pattern on the bottom of the foot. We explored both horizontal loading as shown as well as vertical loading, where the honeycombs faced outward and the side of the honeycomb absorbed the impact. Horizontal loading created the best absorption of the honeycomb designs. This geometry outperformed all other geometries, and was compatible with the robots control algorithm.
+* **Collapsible cone (left):** designed to absorb impact as the cone collapses. It proved incompatible with the robot's control algorithm.
+* **Diamonds (middle):** the impact-absorbing geometry used in Purple mattresses. It absorbed much of the impact and was compatible with the control algorithm.
+* **Hexagonal honeycomb (right):** a honeycomb pattern on the bottom of the foot, tested with both horizontal loading (shown) and vertical loading, where the sides of the honeycomb absorb the impact. Horizontal loading absorbed the most, and this geometry outperformed all the others while staying compatible with the control algorithm.
 
-While the honeycomb design worked best for decreasing the peak force on impact, after the honeycomb collapsed, only the complience of the materials was able to absorb the impact. To increase the time before collapse (thus decreasing the impact overall), so foam was added in between the honeycomb design to provide more absorption. 
+Once the honeycomb collapsed, only the compliance of the material could absorb the remaining impact. To delay that collapse and reduce the impact further, I added foam between the honeycomb walls.
 
 ### Materials
-To provide both structure and complience, a variety of silicone's were explored. While durometer is labeled for each material, it is a qualitative instead of a quantitative measure. Therefore, each materials was tested on a Force Sensor to analyze the compliance. Ecoflex 30 was chosen due to its high strain per a given force). Using the same evaluation criteria, FoamItIV was also chosen. All the materials were from SmoothOn, a silicone and foam manufacturing company.
+The feet needed both structure and compliance, so I tested a range of silicones. Durometer ratings are only a qualitative guide, so I measured each material's compliance on a force sensor. Ecoflex 30 was chosen for its high strain under a given force, and FoamIt IV was chosen using the same criteria. All materials came from Smooth-On.
 
 ## Results
-The results below show the difference between the old foot (left) and the newly designed foot (right). While both feet provide enough stability for walking. The newly designed foot is much quieter and contributes to less mechanical wear and tear.
-<div style="text-align: center">
-<iframe src="https://drive.google.com/file/d/1TLNToWvCaxw_bIhwnJBLBgxj5KIDgtc7/preview" width="640" height="360" ></iframe>
-</div>
-
+Both feet provide enough stability for walking, but the new foot is much quieter and reduces wear and tear on the robot.

@@ -6,14 +6,14 @@ layout: default
   <div class="sidebar-inner">
     <div class="sidebar-profile">
       <div class="sidebar-profile-text">
-        <p class="sidebar-eyebrow">Stanford HCI · Augmented Reality for Learning</p>
+        <p class="sidebar-eyebrow">Stanford HCI · Mechanical Design · Tangible Interfaces</p>
         <div class="author-name">{{site.author}}</div>
         <div class="cover-author-image cover-author-image-inline">
           <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
         </div>
         <p class="sidebar-description">{{site.about-author}}</p>
         <div class="sidebar-actions">
-          <a class="btn btn-primary" href="{{site.baseurl}}/assets/childs_CV_GradSchool_2Page.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
+          <a class="btn btn-primary" href="{{site.baseurl}}/assets/Elizabeth_resume.pdf" target="_blank" rel="noopener">Resume</a>
           {% if site.social-email %}
           <a class="btn btn-secondary" href="mailto:{{site.social-email}}">Email</a>
           {% endif %}
@@ -21,12 +21,14 @@ layout: default
       </div>
     </div>
     <section class="sidebar-section">
-      <h3 class="sidebar-heading">Focus areas</h3>
+      <h3 class="sidebar-heading">Work</h3>
       <ul class="sidebar-list">
         {% assign focus_list = page.focus_areas | default: site.focus_areas %}
         {% for focus in focus_list %}
           <li><a href="{{ focus.link | prepend: site.baseurl }}">{{ focus.title }}</a></li>
         {% endfor %}
+        <li><a href="{{ site.baseurl }}/other-work/">Other work</a></li>
+        <li><a href="{{ site.baseurl }}/skills/">Skills</a></li>
       </ul>
     </section>
     <!-- <section class="sidebar-section">

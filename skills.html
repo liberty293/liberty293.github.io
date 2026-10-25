@@ -1,0 +1,43 @@
+---
+layout: main
+title: Skills
+permalink: /skills/
+---
+<section class="skills-page">
+  <div class="section-header">
+    <h1>Skills</h1>
+    <p>Select a skill to see the projects where I used it.</p>
+  </div>
+
+  {% for group in site.skill_groups %}
+  <h2 class="skills-group-title">{{ group.name }}</h2>
+  <ul class="skill-chips">
+    {% for skill in group.skills %}
+      {% assign skill_posts = site.tags[skill] %}
+      {% if skill_posts.size > 0 %}
+      <li><a class="skill-chip" href="#{{ skill | slugify }}">{{ skill }} <span>{{ skill_posts.size }}</span></a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
+
+  {% for group in site.skill_groups %}
+    {% for skill in group.skills %}
+      {% assign skill_posts = site.tags[skill] %}
+      {% if skill_posts.size > 0 %}
+      <div class="skill-section" id="{{ skill | slugify }}">
+        <h3>{{ skill }}</h3>
+        <ul>
+          {% for post in skill_posts %}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {% comment %}Theme and Other Work pages collect several smaller projects.{% endcomment %}
+            {% if post.listed == false %}<span class="skill-note">several projects</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</section>

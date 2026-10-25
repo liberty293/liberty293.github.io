@@ -1,17 +1,38 @@
 ---
 layout: post
-title: "Speech2AffectiveGestures: Synthesizing Co- Speech Gestures with Generative Adversarial Affective Expression Learning"
+published: false # Hidden for now; set to true to bring the page back.
+title: Speech2AffectiveGestures
 subtitle: Uttaran Bhattacharya, Elizabeth Childs, Nicholas Rewkowski, Dinesh Manocha
 date: 2021-10-01 
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: A generative adversarial network that synthesizes co-speech upper-body gestures with affective expressions aligned to the speaker’s sentiment.
 img: uttaran.png # Add image post (optional)
-tags: [Animation] # add tag
+tags: [Machine Learning, Data Visualization]
+pillar: other
+glance:
+  - label: Tools & techniques
+    value: Generative adversarial networks, graph convolutional networks, speech feature encoding, 3D pose data, and user studies.
+  # Hidden from the page; kept for reference.
+  # - label: Publication
+  #   value: "Speech2AffectiveGestures: Synthesizing Co-Speech Gestures with Generative Adversarial Affective Expression Learning, ACM International Conference on Multimedia, 2021"
 ---
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/D_w1FtIVvQ8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-We present a generative adversarial network to synthesize 3D pose sequences of co-speech upper-body gestures with appropriate affective expressions. Our network consists of two components: a generator to synthesize gestures from a joint embedding space of features encoded from the input speech and the seed poses, and a discriminator to distinguish between the synthesized pose sequences and real 3D pose sequences. We leverage the Mel-frequency cepstral coefficients and the text transcript computed from the input speech in separate encoders in our generator to learn the desired sentiments and the associated affective cues. We design an affective encoder using multi-scale spatial-temporal graph convolutions to transform 3D pose sequences into latent, pose-based affective features. We use our affective encoder in both our generator, where it learns affective features from the seed poses to guide the gesture synthesis, and our discriminator, where it enforces the synthesized gestures to contain the appropriate affective expressions. We perform extensive evaluations on two benchmark datasets for gesture synthesis from the speech, the TED Gesture Dataset and the GENEA Challenge 2020 Dataset. Compared to the best baselines, we improve the mean absolute joint error by 10-33%, the mean acceleration difference by 8-58%, and the Fréchet Gesture Distance by 21-34%. We also conduct a user study and observe that compared to the best current baselines, around 15.28% of participants indicated our synthesized gestures appear more plausible, and around 16.32% of participants felt the gestures had more appropriate affective expressions aligned with the speech.
+Virtual characters and avatars look lifeless when their gestures don't match the emotion in their voice. Speech2AffectiveGestures is a generative adversarial network that turns speech into 3D upper-body gestures whose emotional expression matches the speaker. Compared to the best existing methods, it reduced joint position error by **10–33%**, and study participants rated its gestures as more plausible and better matched to the emotion in the speech.
+
+## Technical Approach
+- **Generator.** Separate encoders turn the speech audio (Mel-frequency cepstral coefficients) and its text transcript into features that capture sentiment, which are combined with seed poses to synthesize a gesture sequence.
+- **Affective encoder.** Multi-scale spatial-temporal graph convolutions turn 3D pose sequences into pose-based emotional features, guiding the generator toward expressive gestures.
+- **Discriminator.** The same affective encoder helps the discriminator tell real gestures from synthesized ones, pushing the generator to produce gestures with the right emotional expression.
+
+## Results
+Evaluated on the TED Gesture and GENEA Challenge 2020 datasets against the best baselines:
+- Mean absolute joint error reduced by **10–33%**
+- Mean acceleration difference reduced by **8–58%**
+- Fréchet Gesture Distance reduced by **21–34%**
+- In a user study, around 15% of participants rated its gestures as more plausible than the best baseline's, and around 16% felt their emotional expression better matched the speech
+
 <p align="center">
   <a href="https://dl.acm.org/doi/10.1145/3474085.3475223" style="text-align: center;">Link to Paper</a>
 </p>

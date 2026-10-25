@@ -1,6 +1,6 @@
-title: Elizabeth's Website
+title: Elizabeth Childs
 description: > # this means to ignore newlines until "baseurl:"
- Elizabeth Childs is a PhD Candidate at Stanford University investigating augmented reality for education.
+ Elizabeth Childs is a PhD Candidate at Stanford University who leverages mechanical design to physically augment digital applications and enhance tangible experiences.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liberty293.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Elizabeth Childs # add your name
 author-img: elizabeth-childs.png # add your photo
-about-author: "Stanford University PhD candidate building augmented reality and tangible learning tools that merge mechanical engineering, computer vision, and education."
+about-author: "Stanford PhD candidate and mechanical engineer building tangible interfaces, from haptic robots to sensor-driven lab tools, that give digital applications a physical form people can touch and learn with."
 # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
@@ -17,19 +17,44 @@ social-github: liberty293 # add your Github handle
 social-linkedin: ehchilds # add your Linkedin handle
 social-email: elchilds@stanford.edu # add your Email address
 
+# The three pillars, in the order of the portfolio thesis; `step` is the value each
+# brings. Posts join a pillar with `pillar: <id>` in their front matter;
+# `pillar: other` lists under Other work.
 focus_areas:
-  - title: Immersive STEM education
-    description: Partnering with educators to create hands-on, technology-rich experiences that broaden participation and deepen understanding.
-    link: /XR-Education/
-    link_label: View learning-focused XR projects
-  - title: Robotics
-    description: Exploring traditional and soft robotics through bio-inspired locomotion, 3D printing, silicone manufacturing, and mechatronics for real-world impact.
+  - id: foundations
+    step: Creating custom hardware
+    title: Mechanical design
+    description: Haptic and bio-inspired robots, compliant robot feet, multi-material 3D printing, and CAD and manufacturing. This is the hands-on engineering everything else is built on.
     link: /ME-Robotics/
-    link_label: View robotics research
-  - title: Engineering Design
-    description: Showcasing projects across mechatronics, CAD modeling, manufacturing, and indie game design to bridge engineering and creativity.
+    link_label: View mechanical design work
+    image: themes/mechanical-design.webp
+    image_alt: Exploded CAD view of the KITE robot showing its camera, motors, omni wheels, axles, battery, Raspberry Pi, and power converters.
+  - id: interfaces
+    step: Tangible interfaces
+    title: Physical interfaces for digital systems
+    description: Hardware that gives software a body, such as a haptic robot that renders simulated forces and a 3D-printed microscope that drives a smartphone app.
     link: /design/
-    link_label: View design portfolio
+    link_label: View tangible interfaces
+    image: themes/physical-interfaces.webp
+    image_alt: A student operating the instrumented microscope while a connected smartphone shows onion cells with cell-counting tools.
+  - id: experiences
+    step: Understanding built by doing
+    title: Tangible learning experiences
+    description: Studies with students showing how augmenting real experiments, rather than replacing them, deepens scientific reasoning and engagement.
+    link: /XR-Education/
+    link_label: View learning research
+    image: themes/tangible-learning.webp
+    image_alt: A student swinging a real pendulum while a tablet overlays an AR protractor and energy bar.
+
+# Skills page groups. Each skill matches a tag in a post's `tags:` list; skills
+# with no matching projects are left off the page.
+skill_groups:
+  - name: Engineering
+    skills: [CAD, SolidWorks, 3D Printing, CNC Machining, Laser Cutting, Silicone Molding, Design for Manufacturing, Robotics, Mechatronics, Haptics, Motor Control, Power Electronics, Embedded Systems, Sensor Integration & Fusion, Experimental Testing]
+  - name: Software & Computing
+    skills: [Unity, C#, OpenCV, Computer Vision, Augmented Reality, Virtual Reality, Microsoft HoloLens, Mobile App Development, Machine Learning, Physics Simulation, Data Visualization, Game Design, 3D Modeling]
+  - name: Research & Leadership
+    skills: [User Studies, Qualitative Research, Interviews, Surveys, Needfinding, Statistical Analysis, Literature Review, Classroom Deployment, Mentorship, Public Speaking]
 
 # Disqus
 discus-identifier:  # add your discus identifier
