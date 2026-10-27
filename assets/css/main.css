@@ -907,7 +907,6 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
   position: relative;
 }
 
@@ -1145,7 +1144,19 @@ table tfoot td {
   margin-left: 360px;
   padding: 64px 60px 80px;
   display: block;
-  max-width: 980px;
+}
+
+/* Fill the space beside the sidebar, centering the content on very wide screens. */
+.content-box > * {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep project text at a comfortable reading width inside the wider page card. */
+.article-page .wrap-content {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .btn {
