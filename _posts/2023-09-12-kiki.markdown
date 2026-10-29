@@ -1,4 +1,6 @@
 ---
+permalink: /ar-outdoor-field-learning/
+redirect_from: /kiki/
 layout: post
 title: AR for Outdoor Field Learning
 subtitle: Alan Y. Cheng, Jacob Ritchie, Niki Agrawal, Elizabeth Childs, Cyan DeVeaux, Yubin Jee, Trevor Leon, Bethanie Maples, Andrea Cuadra, James A. Landay 
@@ -37,8 +39,6 @@ The AR system extends narrative-based outdoor learning with three immersive feat
 These activities were choreographed to fit the learner’s physical movement around the tree, ensuring that AR prompts (e.g., stepping back to measure height) aligned with spatial context. The AR features were designed to keep the experience multisensory and embodied.
 
 ## Results
-![Results Fig]({{site.baseurl}}/assets/img/kiki/results.png)
-
 The evaluation with 44 children in grades 4–6 showed that AR made the outdoor learning experience more engaging and memorable, even though it did not always produce stronger quantitative learning gains compared to the narrative-only variant. Children frequently highlighted the AR activities—especially placing the koala, planting the virtual tree, and measuring height—as some of their favorite parts of the lesson. Participants described the AR as “putting virtual reality and real life together,” and many were impressed by how seamlessly digital elements blended with the eucalyptus tree. Although AR features did not directly enhance content mastery beyond narrative alone, they amplified curiosity, multisensory interaction, and enjoyment—factors that can sustain motivation for outdoor learning.
 
 <p align="center">

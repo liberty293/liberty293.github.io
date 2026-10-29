@@ -1,4 +1,6 @@
 ---
+permalink: /kite-kinesthetic-interface/
+redirect_from: /kite/
 layout: post
 title: "KITE: A Kinesthetic Interface for Tangible Exploration"
 subtitle: Microsoft Research · Future Experiences Group
@@ -20,14 +22,14 @@ glance:
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/JxwKrtG6HAw?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Physics simulations can show forces like lift, tension, and electric fields, but learners can only watch them. KITE lets them feel those forces. It is a free-moving haptic robot that glides across a desk like a mouse and, when it meets a virtual object or force in the simulation, pushes back with multidirectional force and torque that line up with what is on screen. One device supports experiences across physics, from aerodynamics to chemistry.
+Physics simulations can show forces like lift, tension, and electric fields, but learners can only watch them. KITE lets them feel those forces. It is a free-moving haptic robot that glides across a desk like a mouse and, when it meets a virtual object or force in the simulation, pushes back with multidirectional force and torque that line up with what is on screen. One device supports experiences across physics domains.
 
 ## Hardware Design
 <p align="center">
   <img src="{{site.baseurl}}/assets/img/themes/mechanical-design.webp" alt="Exploded CAD view of KITE showing its camera, motors, omni wheels, axles, wheel retainers, battery, Raspberry Pi, and power converters" width="85%"/>
 </p>
 
-- **Gearless actuation.** Gearless motors drive omni wheels, so KITE can move and push in any direction. Custom motor control renders smooth forces and torques without the backlash and friction a geared drive would add.
+- **Gearless actuation.** Gearless motors drive omni wheels, so KITE can move and push in any direction. Custom motor control drivers built on the MIT protocol render smooth forces and torques without the backlash and friction a geared drive would add.
 - **Hybrid localization.** Overhead camera tracking gives KITE's absolute position, and motor feedback fills in between camera updates, keeping force rendering precise and responsive.
 - **Self-contained body.** An onboard camera, Raspberry Pi, battery, and buck and boost power converters all fit inside one compact housing.
 

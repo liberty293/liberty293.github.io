@@ -1,4 +1,6 @@
 ---
+permalink: /cassie-impact-absorbing-feet/
+redirect_from: /osu/
 layout: post
 title: Impact-Absorbing Feet for the Cassie Bipedal Robot
 subtitle: Oregon State University · Dynamic Robotics Laboratory

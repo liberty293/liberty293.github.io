@@ -25,7 +25,7 @@ focus_areas:
     step: Creating custom hardware
     title: Mechanical design
     description: Haptic and bio-inspired robots, compliant robot feet, multi-material 3D printing, and CAD and manufacturing. This is the hands-on engineering everything else is built on.
-    link: /ME-Robotics/
+    link: /mechanical-design/
     link_label: View mechanical design work
     image: themes/mechanical-design.webp
     image_alt: Exploded CAD view of the KITE robot showing its camera, motors, omni wheels, axles, battery, Raspberry Pi, and power converters.
@@ -33,7 +33,7 @@ focus_areas:
     step: Tangible interfaces
     title: Physical interfaces for digital systems
     description: Hardware that gives software a body, such as a haptic robot that renders simulated forces and a 3D-printed microscope that drives a smartphone app.
-    link: /design/
+    link: /physical-interfaces/
     link_label: View tangible interfaces
     image: themes/physical-interfaces.webp
     image_alt: A student operating the instrumented microscope while a connected smartphone shows onion cells with cell-counting tools.
@@ -41,7 +41,7 @@ focus_areas:
     step: Understanding built by doing
     title: Tangible learning experiences
     description: Studies with students showing how augmenting real experiments, rather than replacing them, deepens scientific reasoning and engagement.
-    link: /XR-Education/
+    link: /tangible-learning/
     link_label: View learning research
     image: themes/tangible-learning.webp
     image_alt: A student swinging a real pendulum while a tablet overlays an AR protractor and energy bar.
@@ -68,5 +68,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-redirect-from
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -29,7 +29,7 @@ The clearest need was that teachers want technology to **augment hands-on labs, 
 **Tools & techniques:** Needfinding, classroom observation, surveys, semi-structured interviews, and qualitative analysis.
 
 <p align="center">
-  <a href="{{site.baseurl}}/chi-megapaper" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/teacher-perspectives-science-labs/" style="text-align: center;">Link to Page</a>
 </p>
 
 ## Research and Industry Collaborations
@@ -42,7 +42,7 @@ A first-author journal survey of how AR and VR can support distance learning. It
 **Tools & techniques:** Literature review and synthesis, AR and VR system analysis, and academic writing.
 
 <p align="center">
-  <a href="{{site.baseurl}}/XR-distance-ed" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/ar-vr-distance-learning/" style="text-align: center;">Link to Page</a>
 </p>
 
 <!-- Hidden for now.
@@ -57,7 +57,7 @@ A generative adversarial network that turns speech into 3D upper-body gestures w
 **Tools & techniques:** Generative adversarial networks, graph convolutional networks, speech feature encoding, 3D pose data, and user studies.
 
 <p align="center">
-  <a href="{{site.baseurl}}/uttaran" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/speech2affective-gestures/" style="text-align: center;">Link to Page</a>
 </p>
 -->
 

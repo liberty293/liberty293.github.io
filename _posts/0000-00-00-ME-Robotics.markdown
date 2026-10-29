@@ -1,4 +1,6 @@
 ---
+permalink: /mechanical-design/
+redirect_from: /ME-Robotics/
 layout: post
 title: Mechanical Design
 date: 2000-09-12 00:00:00 +0300
@@ -26,7 +28,7 @@ I designed the mechatronics for KITE, a free-moving haptic robot. Gearless motor
 **Tools & techniques:** CAD, 3D printing, omni-wheel drivetrain design, motor integration, power electronics, embedded computing, sensor fusion, and computer vision.
 
 <p align="center">
-  <a href="{{site.baseurl}}/kite" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/kite-kinesthetic-interface/" style="text-align: center;">Link to Page</a>
 </p>
 
 ## Traditional Robotics
@@ -80,7 +82,7 @@ Multi-material 3D printing can produce intricate fluidic devices, but cleaning s
 **Tools & techniques:** Multi-material 3D printing, SolidWorks, designing integrated fasteners and seals, and empirical testing.
 
 <p align="center">
-  <a href="{{site.baseurl}}/bam-lab" style="text-align: center;">Link to Journal Paper</a>
+  <a href="{{site.baseurl}}/3d-printed-microfluidics/" style="text-align: center;">Link to Journal Paper</a>
 </p>
 
 ### Impact-Absorbing Feet for the Cassie Bipedal Robot
@@ -90,7 +92,7 @@ Cassie's hard feet slammed into the ground with every step. I designed new feet 
 **Tools & techniques:** Silicone and foam manufacturing, material characterization, force-plate testing, and designing within the constraints of an existing control system.
 
 <p align="center">
-  <a href="{{site.baseurl}}/osu" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/cassie-impact-absorbing-feet/" style="text-align: center;">Link to Page</a>
 </p>
 
 

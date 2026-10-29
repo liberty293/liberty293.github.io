@@ -1,4 +1,6 @@
 ---
+permalink: /3d-printed-microfluidics/
+redirect_from: /bam-lab/
 layout: post
 title: Additive Assembly for 3D-Printed Microfluidics
 subtitle: Elizabeth Childs, Andrew Latchman, Andrew Lamont, Joshua Hubbard, Ryan Sochol

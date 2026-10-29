@@ -1,4 +1,6 @@
 ---
+permalink: /ar-vr-distance-learning/
+redirect_from: /XR-distance-ed/
 layout: post
 title: AR and VR for Distance Learning
 subtitle: Elizabeth Childs, Ferzam Mohammad, Logan Stevens, Hugo Burbelo, Amanuel Awoke, Nicholas Rewkowski, and Dinesh Manocha

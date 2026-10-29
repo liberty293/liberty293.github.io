@@ -1,4 +1,6 @@
 ---
+permalink: /speech2affective-gestures/
+redirect_from: /uttaran/
 layout: post
 published: false # Hidden for now; set to true to bring the page back.
 title: Speech2AffectiveGestures

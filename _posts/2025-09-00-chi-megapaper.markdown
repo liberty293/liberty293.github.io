@@ -1,4 +1,6 @@
 ---
+permalink: /teacher-perspectives-science-labs/
+redirect_from: /chi-megapaper/
 layout: post
 title: Teachers’ Perspectives on Technologies for Science Labs
 subtitle: Elizabeth Childs, Jane E, Allison Okamura, James Landay
@@ -30,7 +32,7 @@ Math and literacy gaps are the hidden blockers to technology adoption. Half of t
 
 Technology can help create real-world connections. Teachers repeatedly emphasized that labs are most powerful when students can see the relevance of science beyond the classroom. While content mastery is important, many teachers described their ultimate goal as helping students transfer scientific reasoning into their own lives and communities. They feel technology can help connect science to everyday experiences and broader societal issues (e.g., climate change, health).
 
-Educational laboratory tech needs to be more customizable. Nearly all teachers reported adapting labs to student and classroom needs, but most technologies lock them into rigid representations (e.g., generic molecular models or symbols different than current curricula). Because labs are rarely “one-size-fits-all,” teachers need the agency to adapt technology just as easily as they can customize PowerPoints.
+Additionally, educational laboratory tech needs to be more customizable. Nearly all teachers reported adapting labs to student and classroom needs, but most technologies lock them into rigid representations (e.g., generic molecular models or symbols different than current curricula). Because labs are rarely “one-size-fits-all,” teachers need the agency to adapt technology just as easily as they can customize PowerPoints.
 
 ## Summary of Design Guidelines  
 
@@ -38,10 +40,7 @@ Overall, technology should support authentic, hands-on laboratory practices, whi
 
 <table style="width:100%; border-collapse:collapse;">
   <caption style="caption-side: top; text-align: left; margin-bottom: 18px;">
-    <b>Summary of Findings and Design Guidelines:</b>
-    Overall, technology should support authentic, hands-on laboratory practices, while also scaffolding prior knowledge
-    to be accessible for students with differing math and language skills. Allowing teachers to customize technology
-    is also important, as they can best adapt it to suit student, classroom, and societal context.
+    <b>Summary of Findings and Design Guidelines</b>
   </caption>
   <thead>
     <tr>

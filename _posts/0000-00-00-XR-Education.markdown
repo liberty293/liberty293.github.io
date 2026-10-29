@@ -1,4 +1,6 @@
 ---
+permalink: /tangible-learning/
+redirect_from: /XR-Education/
 layout: post
 title: Tangible Learning Experiences
 date: 2017-04-06 13:32:20 +0300
@@ -19,12 +21,12 @@ I run classroom and field studies to evaluate how digital augmentation deepens h
 <p align="center">
   <img src="{{site.baseurl}}/assets/img/pendulum-interface.jpg" alt="AR interface overlaid on a real pendulum experiment" width="80%"/>
 </p>
-A real pendulum experiment augmented with AR measurement tools: a protractor anchored at the pivot, a live graph of energy flowing between potential, kinetic, and dissipated forms, and an automatic period counter. Instead of replacing the experiment, the overlays take over tedious measurement so students can focus on reasoning about their data. In a study with 52 students, the AR lab improved scientific reasoning over the traditional lab (Cohen's d = 0.63, Bayes factor 18.11) while maintaining interest and content mastery.
+A real pendulum experiment augmented with AR measurement tools: a protractor anchored at the pivot, a live graph of energy flowing between potential, kinetic, and dissipated forms, and an automatic period counter. Instead of replacing the experiment, the overlays take over tedious measurement so students can focus on reasoning about their data. In a study with 52 students, the AR lab improved scientific reasoning over the traditional lab (Cohen's d = 0.63, Bayes factor 17.44) while maintaining interest and content mastery.
 
 **Tools & techniques:** Augmented reality, computer vision, real-time data visualization, laser cutting, between-subjects user study, and Bayesian analysis.
 
 <p align="center">
-  <a href="{{site.baseurl}}/pendulum" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/ar-physics-lab/" style="text-align: center;">Link to Page</a>
 </p>
 
 ### Visualizing Biological Mechanisms
@@ -36,7 +38,7 @@ An AR app that runs alongside a real high school biology lab on yeast fermentati
 **Tools & techniques:** Unity, OpenCV, augmented reality, computer-vision volume tracking, and classroom deployment.
 
 <p align="center">
-  <a href="{{site.baseurl}}/enzyme-dynamics" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/visualizing-biological-mechanisms/" style="text-align: center;">Link to Page</a>
 </p>
 
 ## Augmenting the Outdoors
@@ -47,5 +49,5 @@ A narrative mobile app that turns a real eucalyptus tree into a hands-on science
 **Tools & techniques:** Augmented reality, mobile app development, anchoring AR content in real-world locations, and field studies with children.
 
 <p align="center">
-  <a href="{{site.baseurl}}/kiki" style="text-align: center;">Link to Page</a>
+  <a href="{{site.baseurl}}/ar-outdoor-field-learning/" style="text-align: center;">Link to Page</a>
 </p>
