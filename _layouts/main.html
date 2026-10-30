@@ -13,7 +13,7 @@ layout: default
         </div>
         <p class="sidebar-description">{{site.about-author}}</p>
         <div class="sidebar-actions">
-          <a class="btn btn-primary" href="{{site.baseurl}}/assets/Elizabeth_resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn btn-primary" href="{{site.baseurl}}/assets/Elizabeth_resume.pdf?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener">Resume</a>
           {% if site.social-email %}
           <a class="btn btn-secondary" href="mailto:{{site.social-email}}">Email</a>
           {% endif %}
