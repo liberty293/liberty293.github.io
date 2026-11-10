@@ -2321,20 +2321,13 @@ a.newer-posts:hover {
     font-size: 13px;
     line-height: 1.35;
   }
-  /* Pair the two long theme links on one row: Mechanical | Other work,
-     Physical interfaces | Tangible learning, then Skills */
-  .sidebar-list li:nth-child(4) {
-    order: 1;
-  }
-  .sidebar-list li:nth-child(2) {
-    order: 2;
-  }
-  .sidebar-list li:nth-child(3) {
-    order: 3;
-  }
-  .sidebar-list li:nth-child(5) {
-    order: 4;
-  }
+  /* Pair the two long theme links on the first row: Physical interfaces |
+     Tangible learning, then Mechanical | Other work, then Skills */
+  .sidebar-list li:nth-child(2) { order: 1; }
+  .sidebar-list li:nth-child(3) { order: 2; }
+  .sidebar-list li:nth-child(1) { order: 3; }
+  .sidebar-list li:nth-child(4) { order: 4; }
+  .sidebar-list li:nth-child(5) { order: 5; }
   .contact-links {
     display: flex;
     flex-wrap: wrap;
