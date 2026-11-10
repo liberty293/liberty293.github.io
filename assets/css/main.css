@@ -2321,10 +2321,19 @@ a.newer-posts:hover {
     font-size: 13px;
     line-height: 1.35;
   }
-  /* Move the longest link (Physical interfaces) to the end, spanning both columns */
-  .sidebar-list li:nth-child(2) {
+  /* Pair the two long theme links on one row: Mechanical | Other work,
+     Physical interfaces | Tangible learning, then Skills */
+  .sidebar-list li:nth-child(4) {
     order: 1;
-    grid-column: 1 / -1;
+  }
+  .sidebar-list li:nth-child(2) {
+    order: 2;
+  }
+  .sidebar-list li:nth-child(3) {
+    order: 3;
+  }
+  .sidebar-list li:nth-child(5) {
+    order: 4;
   }
   .contact-links {
     display: flex;
